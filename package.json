@@ -20,12 +20,19 @@
   },
   "devDependencies": {
     "aurelia-tools": "^0.1.0",
+    "browser-sync": "^1.8.1",
     "conventional-changelog": "0.0.11",
     "del": "^1.1.0",
     "gulp": "^3.8.10",
     "gulp-babel": "^4.0.0",
     "gulp-bump": "^0.1.11",
+    "gulp-concat": "^2.5.2",
+    "gulp-if": "^1.2.5",
     "gulp-jshint": "^1.9.0",
+    "gulp-load-plugins": "^0.9.0",
+    "gulp-plumber": "^1.0.0",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-stylus": "^2.0.1",
     "gulp-yuidoc": "^0.1.2",
     "jasmine-core": "^2.1.3",
     "jshint-stylish": "^1.0.0",
@@ -34,6 +41,7 @@
     "karma-chrome-launcher": "^0.1.7",
     "karma-jasmine": "^0.3.5",
     "karma-jspm": "^1.0.1",
+    "lazypipe": "^0.2.2",
     "object.assign": "^1.0.3",
     "require-dir": "^0.1.0",
     "run-sequence": "^1.0.2",
@@ -45,6 +53,15 @@
     "format": "register",
     "directories": {
       "lib": "dist/system"
+    },
+    "dependencies": {
+      "aurelia-bootstrapper": "github:aurelia/bootstrapper@^0.10.0",
+      "aurelia-dependency-injection": "github:aurelia/dependency-injection@^0.5.0",
+      "aurelia-framework": "github:aurelia/framework@^0.9.0",
+      "aurelia-http-client": "github:aurelia/http-client@^0.6.0",
+      "aurelia-router": "github:aurelia/router@^0.6.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.1",
+      "font-awesome": "npm:font-awesome@^4.3.0"
     }
   }
 }
