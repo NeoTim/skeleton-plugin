@@ -39,13 +39,13 @@ gulp.task('build-amd', ['build-html-amd'], function () {
 
 gulp.task('build-html-system', function () {
   return gulp.src(paths.html)
-    .pipe(gulp.dest(paths.output + 'system'));
+    .pipe(gulp.dest(paths.system.output));
 });
 
 gulp.task('build-system', ['build-html-system'], function () {
   return gulp.src(paths.source)
     .pipe(to5(assign({}, compilerOptions, {modules:'system'})))
-    .pipe(gulp.dest(paths.output + 'system'));
+    .pipe(gulp.dest(paths.system.output));
 });
 
 gulp.task('build', function(callback) {

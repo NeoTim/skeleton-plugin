@@ -1,7 +1,8 @@
 {
-  "name": "aurelia-skeleton-plugin",
-  "version": "0.1.0",
+  "name": "<%= name %>",
+  "version": "0.0.0",
   "description": "A starter kit for building an Aurelia plugin.",
+  "registry": "github",
   "keywords": [
     "aurelia",
     "plugin",
